@@ -1,0 +1,221 @@
+@media (min-width: 1500px) {
+  .services {
+    justify-content: center;
+  }
+  .service {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .trainer {
+    width: 34rem;
+  }
+
+  .contact-wrapper {
+    width: 80%;
+    height: 65rem;
+  }
+
+  .footer__content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .cover {
+    & h1 {
+      font-size: 6rem;
+      line-height: 7rem;
+    }
+
+    & p {
+      font-size: 3rem;
+    }
+
+    & button {
+      width: 20rem;
+      height: 6rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  .menu__link {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .our-team {
+    padding-bottom: 6rem;
+  }
+
+  .trainers {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+
+  .trainer {
+    margin-top: 5rem;
+  }
+
+  .contact {
+    &-wrapper {
+      width: 90%;
+      height: 55rem;
+    }
+
+    &__heading {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .field {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cover {
+    & h1 {
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+
+    & p {
+      font-size: 2.5rem;
+    }
+
+    & button {
+      width: 18rem;
+      height: 4.2rem;
+      font-size: 1.7rem;
+    }
+  }
+
+  .services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service {
+    width: 35rem;
+    margin-bottom: 5rem;
+  }
+
+  .contact {
+    &__left {
+      width: 0;
+    }
+
+    &__right {
+      width: 100%;
+    }
+  }
+
+  .field {
+    width: 55rem;
+  }
+
+  .input-wrapper textarea {
+    max-width: 55rem;
+  }
+
+  .btn-submit {
+    width: 18rem;
+    height: 5rem;
+  }
+
+  .footer {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 50%;
+      margin-top: 2rem;
+    }
+
+    & p {
+      order: 1;
+      margin: 3rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .cover {
+    & h1 {
+      font-size: 4rem;
+      line-height: 4.5rem;
+    }
+
+    & p {
+      font-size: 2rem;
+    }
+  }
+
+  .contact {
+    height: 90vh;
+  }
+
+  .field {
+    width: 35rem;
+  }
+
+  .input-wrapper {
+    max-width: 35rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .sidebar {
+    width: 100%;
+    right: -100%;
+  }
+
+  .sidebar-menu {
+    &__line {
+      height: 0.3rem;
+    }
+  }
+
+  .menu__link {
+    right: -2rem;
+  }
+
+  .cover {
+    & h1 {
+      margin-bottom: 2rem;
+    }
+
+    & p {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .service {
+    width: 30rem;
+  }
+
+  .contact {
+    height: 65vh;
+  }
+
+  .field {
+    width: 30rem;
+  }
+
+  .input-wrapper textarea {
+    max-width: 30rem;
+  }
+
+  .footer {
+    height: 18rem;
+  }
+}
