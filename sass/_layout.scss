@@ -79,11 +79,14 @@
 
 .services {
   display: flex;
+  justify-content: space-around;
   padding: 2rem;
 }
 
 .service {
-  margin-right: 2rem;
+  width: 25rem;
+  padding: 1rem;
+  border: 1px solid black;
 
   &__header {
     display: flex;
@@ -328,9 +331,17 @@
     font-size: 2.2rem;
     color: #fff;
     transition: color 0.3s;
+  }
 
-    &:hover {
-      color: red;
+  .fa{
+    &-facebook-f:hover {
+      color: rgba(10, 10, 187, 0.822);
+    }
+    &-instagram:hover {
+      color: rgb(218, 121, 137);
+    }
+    &-twitter:hover {
+      color: rgb(40, 111, 243)
     }
   }
 }

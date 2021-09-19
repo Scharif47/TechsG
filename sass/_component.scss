@@ -84,6 +84,7 @@
   background-color: #fff;
   transition: right 0.4s;
   z-index: 5;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.7)
 }
 
 .toggle .sidebar {
@@ -147,9 +148,17 @@
     align-items: center;
     border-radius: 50%;
     transition: background-color 0.3s;
+  }
 
-    &:hover {
-      background-color: red;
+  .fa{
+    &-facebook-f:hover {
+      background-color: rgba(10, 10, 187, 0.822);
+    }
+    &-instagram:hover {
+      background-color: rgb(177, 74, 91);
+    }
+    &-twitter:hover {
+      background-color: rgb(40, 111, 243)
     }
   }
 }
@@ -166,6 +175,7 @@
   text-transform: uppercase;
   cursor: pointer;
   color: black;
+  background-color: #fff;
   text-shadow: var(--shadow-light);
   box-shadow: var(--shadow-big);
   transition: transform 0.3s;
